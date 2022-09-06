@@ -1,10 +1,10 @@
-const checkPalindrom = 'ana'
+//const checkPalindrom = 'ana'
 //232;
 //'Sator Arepo tenet opera rotas'
 //'menem'
 //'ata'
 
-const palindrome = () => {
+const palindrome = (checkPalindrom) => {
   let word = checkPalindrom + "";
   let first = 0;
   let last = word.length - 1;
@@ -23,4 +23,4 @@ const palindrome = () => {
     }
   }
 };
-palindrome();
+palindrome('ana');
