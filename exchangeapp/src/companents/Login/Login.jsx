@@ -1,5 +1,6 @@
 import React from "react";
-//import { LockClosedIcon } from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
+
 
 export default function Login() {
   return (
@@ -64,15 +65,15 @@ export default function Login() {
           </div>
 
           <div>
-            <button
-              type="submit"
+            <Link
+            to='/'
               className="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
               <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                
               </span>
               Sign in
-            </button>
+            </Link>
           </div>
         </form>
       </div>

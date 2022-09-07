@@ -11,9 +11,7 @@ const arr =  [
         for(let i=0; i<arr.length; i++){
         const {type, value}=arr[i];
           // console.log(type, value)
-        //   if(type === arr[i+1].type){
-        //     console.log(value)
-        //   }
+        
         }
     }
 

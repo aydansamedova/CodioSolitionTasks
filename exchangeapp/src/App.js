@@ -1,11 +1,16 @@
-
-import './App.css';
-import Login from './companents/Login/Login'
+import "./App.css";
+import Login from "./companents/Login/Login";
+import Home from "./companents/Home/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className=''>
-<Login/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+      
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

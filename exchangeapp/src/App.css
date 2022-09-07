@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.app {
+  width: 685px;
+}
+.selectInput {
+  width: 311px;
+
+}
+.selectInput select {border-radius: 20px;
+  font-size: 18px;
+  line-height: 21.09px;
+  box-shadow:3px 3px 10px 0 rgba(14, 87, 214, 0.26);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icons{
+ color: #0E57D6;
+ font-size: 13px;
+ font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form{
+  width: 100%;
+  box-shadow:1px 1px 6px 0 rgba(14, 87, 214, 0.26);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  margin: 32px 0;
+  padding: 22px 35px 46px 39px;
+
+}
+.form label{
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.inputCurrency{
+  margin:12px 0 22px  0;
+}
+.inputCurrency input{
+  width:515px;
+  outline:none;
+  background: #F2F2F2;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px 0 0px 10px ;
+height:52px;
+padding:0 20px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputCurrency button{
+  width: 96px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0px 10px 10px 0px;
+  height:52px;
+  color:#0E57D6;
 }
 
-.App-link {
-  color: #61dafb;
+.inputs{
+  background: #FFFFFF;
+box-shadow: 1px 1px 4px rgba(14, 87, 214, 0.26);
+border-radius: 20px;
+padding:20px 30px
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputs .icon{
+  margin-right: 40px;
 }
