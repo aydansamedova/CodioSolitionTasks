@@ -4,7 +4,7 @@ const arr =["alma", "albali", "alça"]
 
 const prefix = () => {
   if (arr.length === 0) {
-    console.log(" epmty arr");
+    console.log("epmty arr");
   }
   // arr-den bir soz goturduk
   let first = arr[0];
